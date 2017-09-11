@@ -6,7 +6,7 @@
   background: url(../img/header_bg.jpg);
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  min-height: 700px;
   position: relative; }
   #header-bg header {
     padding-top: 40px; }
@@ -323,7 +323,6 @@
           line-height: 1.5; }
           #reservation .comment .cmt .cmt-cnt .content a {
             display: block;
-            margin-left: 92px;
             text-decoration: none;
             color: #ff6633;
             font-family: "PTSans";
@@ -371,7 +370,7 @@
   font-style: normal; }
 
 body {
-  width: 1024px;
+  min-width: 1280px;
   font-size: 16px;
   overflow: auto; }
 
