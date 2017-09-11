@@ -297,36 +297,38 @@
       #reservation .comment .cmt .avatar {
         float: left;
         margin-right: 20px; }
-      #reservation .comment .cmt .cmt-cnt h3 {
-        font-family: "PTSerif";
-        font-weight: 700;
-        color: #ff6633;
-        font-size: 16px;
-        margin-bottom: 10px; }
-      #reservation .comment .cmt .cmt-cnt .date {
-        font-family: "PTSans";
-        font-weight: 700;
-        color: #3b3b3b;
-        margin-bottom: 10px;
-        font-size: 12px; }
-        #reservation .comment .cmt .cmt-cnt .date i {
-          margin-right: 5px; }
-        #reservation .comment .cmt .cmt-cnt .date span {
-          margin-left: 10px; }
-      #reservation .comment .cmt .cmt-cnt .content {
-        font-family: "PTSans";
-        font-weight: 400;
-        font-size: 16px;
-        color: #3b3b3b;
-        line-height: 1.5; }
-        #reservation .comment .cmt .cmt-cnt .content a {
-          display: block;
-          margin-left: 92px;
-          text-decoration: none;
+      #reservation .comment .cmt .cmt-cnt {
+        margin-left: 92px; }
+        #reservation .comment .cmt .cmt-cnt h3 {
+          font-family: "PTSerif";
+          font-weight: 700;
           color: #ff6633;
+          font-size: 16px;
+          margin-bottom: 10px; }
+        #reservation .comment .cmt .cmt-cnt .date {
+          font-family: "PTSans";
+          font-weight: 700;
+          color: #3b3b3b;
+          margin-bottom: 10px;
+          font-size: 12px; }
+          #reservation .comment .cmt .cmt-cnt .date i {
+            margin-right: 5px; }
+          #reservation .comment .cmt .cmt-cnt .date span {
+            margin-left: 10px; }
+        #reservation .comment .cmt .cmt-cnt .content {
           font-family: "PTSans";
           font-weight: 400;
-          font-style: italic; }
+          font-size: 16px;
+          color: #3b3b3b;
+          line-height: 1.5; }
+          #reservation .comment .cmt .cmt-cnt .content a {
+            display: block;
+            margin-left: 92px;
+            text-decoration: none;
+            color: #ff6633;
+            font-family: "PTSans";
+            font-weight: 400;
+            font-style: italic; }
 
 /* |...\КОНЕЦ ОСНОВНЫХ СТИЛЕЙ/..|
 
