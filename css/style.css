@@ -86,6 +86,7 @@
   max-height: 806px; }
   #about .content {
     width: 460px;
+    height: 384px;
     float: left;
     z-index: 2; }
     #about .content h2 {
