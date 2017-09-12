@@ -144,7 +144,7 @@
     background: red;
     display: inline-block;
     margin: 24px 0 0 18px;
-    background: url(/img/cont-3.jpg) no-repeat;
+    background: url(../img/cont-3.jpg) no-repeat;
     background-size: cover; }
   #about .wrapper4 {
     position: relative;
@@ -154,7 +154,7 @@
     background: cyan;
     background-size: cover;
     bottom: 232px;
-    background: url(/img/cont-4.jpg) no-repeat; }
+    background: url(../img/cont-4.jpg) no-repeat; }
 
 #menu {
   width: 100%;
@@ -267,7 +267,8 @@
       border-radius: 3px;
       font-family: "PTSans";
       font-weight: 700;
-      font-size: 14px; }
+      font-size: 14px;
+      box-sizing: border-box; }
   #reservation .comment {
     width: 415px;
     background: #fff;
