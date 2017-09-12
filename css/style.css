@@ -128,8 +128,8 @@
     background-size: cover; }
   #about .wrapper2 {
     z-index: 1;
-    position: absolute;
-    bottom: -745px;
+    position: relative;
+    bottom: 110px;
     width: 540px;
     height: 364px;
     background: #333;
@@ -139,7 +139,6 @@
   #about .wrapper3 {
     position: relative;
     bottom: 0;
-    left: 540px;
     width: 304px;
     height: 230px;
     background: red;
@@ -330,6 +329,164 @@
             font-family: "PTSans";
             font-weight: 400;
             font-style: italic; }
+
+#section-table {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  height: auto; }
+  #section-table .book-a-table {
+    width: 295px;
+    margin: 100px 0;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0px 80px 0px 80px;
+    font-family: 'PTSans';
+    font-weight: 400;
+    color: #5b5b5b;
+    font-size: 1em; }
+    #section-table .book-a-table h2 {
+      font-family: "PTSerif";
+      font-weight: 700;
+      font-size: 1.500em;
+      color: #3b3b3b;
+      padding: 0 0 40px 0; }
+    #section-table .book-a-table .btn {
+      margin-top: 40px;
+      text-decoration: none;
+      background: #f63;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 20px 40px;
+      font-family: "PTSerif";
+      font-weight: 700;
+      display: inline-block;
+      border-radius: 3px; }
+  #section-table .tell-frnd {
+    width: 295px;
+    float: right;
+    margin-top: -328px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0px 80px 0px 80px;
+    font-family: 'PTSans';
+    font-weight: 400;
+    color: #5b5b5b;
+    font-size: 1em; }
+    #section-table .tell-frnd h2 {
+      font-family: "PTSerif";
+      font-weight: 700;
+      font-size: 1.500em;
+      color: #3b3b3b;
+      padding: 0 0 40px 0; }
+    #section-table .tell-frnd .facebook {
+      margin-top: 40px;
+      text-decoration: none;
+      background: #3e59a5;
+      color: #fff;
+      padding: 3px 10px;
+      font-family: "PTSerif";
+      font-weight: 400;
+      display: inline-block;
+      border-radius: 5px;
+      margin-right: 10px; }
+    #section-table .tell-frnd .twitter {
+      margin-top: 40px;
+      text-decoration: none;
+      background: #1b95e0;
+      color: #fff;
+      padding: 3px 10px;
+      font-family: "PTSerif";
+      font-weight: 400;
+      display: inline-block;
+      border-radius: 5px; }
+  #section-table .ui.vertical.divider {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 50%;
+    line-height: 0;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    font-family: 'Lato';
+    color: #9a9999; }
+    #section-table .ui.vertical.divider:after, #section-table .ui.vertical.divider:before {
+      position: absolute;
+      left: 50%;
+      content: '';
+      z-index: 3;
+      border-left: 0px solid #d7d6d6;
+      border-right: 1px solid #d7d6d6;
+      width: 0;
+      height: calc(100% - 1.5em); }
+    #section-table .ui.vertical.divider:before {
+      top: -100%; }
+    #section-table .ui.vertical.divider:after {
+      top: auto;
+      bottom: 0; }
+  #section-table *,
+  #section-table :after,
+  #section-table :before {
+    box-sizing: inherit; }
+
+footer {
+  width: 100%;
+  background: #222;
+  padding: 50px 0; }
+  footer:after {
+    content: '.';
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden; }
+  footer .logo {
+    float: left;
+    color: #ff6633;
+    font-family: "PTSerif";
+    font-weight: 700;
+    font-size: 36px;
+    display: block; }
+  footer .nav-footer {
+    margin-left: 225px;
+    color: #fff;
+    text-transform: uppercase;
+    float: left; }
+    footer .nav-footer h3 {
+      padding-top: 10px;
+      margin-bottom: 25px;
+      font-size: 16px; }
+    footer .nav-footer ul li {
+      margin-bottom: 15px; }
+      footer .nav-footer ul li a {
+        color: #fff;
+        font-size: 13px;
+        text-decoration: none; }
+        footer .nav-footer ul li a:hover {
+          color: #f63; }
+  footer .visit {
+    float: right;
+    margin-right: 20px;
+    width: 265px;
+    color: #fff; }
+    footer .visit h3 {
+      padding-top: 10px;
+      margin-bottom: 25px;
+      font-size: 16px;
+      text-transform: uppercase; }
+    footer .visit p {
+      margin-bottom: 25px;
+      font-size: 14px;
+      line-height: 1.5; }
+      footer .visit p span {
+        color: #f63; }
 
 /* |...\КОНЕЦ ОСНОВНЫХ СТИЛЕЙ/..|
 
